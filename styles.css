@@ -1,0 +1,77 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    padding-top: 2rem;
+    max-height: 30vh;
+    background-color: rgb(136, 114, 94);
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    padding: 1rem;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        rgb(136, 230, 244), 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.quote {
+    display: flex;
+    align-items: baseline;
+    font-size: 1rem;
+    font-family: 'Apparel Black It';
+    color: rgb(12, 67, 67);
+}
+
+.h1 {
+    font-size: 1.5rem;
+    font-family: 'Apparel Bold';
+    color: aliceblue;
+}
+
+.skills {
+    font-size: 1rem;
+    font-family: 'Apparel Bold';
+}
+
+.react {
+    background-color: rgb(97, 219, 250);
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.javascript {
+    background-color: plum;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.html {
+    background-color: darkkhaki;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 15px;
+}
