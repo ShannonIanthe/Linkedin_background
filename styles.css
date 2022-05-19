@@ -4,14 +4,27 @@ html,body {
     box-sizing: border-box;
 }
 
+h1{
+    text-align: center;
+    font-family: 'Monument Extended';
+    color: white;
+}
+
 .container {
     display: flex;
     justify-content: space-around;
     gap: 2rem;
     padding-top: 2rem;
     padding-bottom: 3rem;
-    max-height: 80vh;
-    background-color: #ebe8e7;
+    max-height: 70vh;
+    background-color: rgb(29, 29, 29);
+}
+
+.write{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-box {
@@ -20,30 +33,18 @@ flex-direction: column;
 justify-content: space-between;
 }
 
-.box {
-    height: 25rem;
-    width: 25rem;
-}
-
-.container2 {
-    display: flex;
-    gap: 1rem;
-}
-
 .nav {
     display: flex;
     flex-direction: column;
-    max-width: 250px;
+    justify-content: center;
     padding-left: 3rem;
 }
 
-span {
-    text-decoration: 2px underline #f2c76e;
-}
 
 .image-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 2rem;
 }
 
@@ -51,48 +52,23 @@ span {
     display: flex;
     padding: 5px;
     gap: 1rem;
- 
     border-radius: 5px;
 }
 
-.image2 {
-    display: flex;
-    gap: 1rem;
-}
 
 .quote {
     display: flex;
-    align-items: baseline;
-    font-size: 1rem;
-    font-family: 'Apparel Black It';
+    align-items: center;
+    font-size: .8rem;
+    font-family: 'SF Mono';
     color: #ea7186;
-}
-
-.h1 {
-    font-size: 2rem;
-    font-family: 'Apparel Bold';
-    color: #7a77b9;
+    text-align: center;
 }
 
 .h2 {
-    font-size: 1.5rem;
-    font-family: 'Apparel Bold';
-    color: #7a77b9;
+    font-size: .9rem;
+    font-family: 'SF Mono';
+    color: #15e1f8;
+    line-height: 2px;
 }
 
-.skills {
-    font-size: 1rem;
-    font-family: 'Apparel Bold';
-}
-
-.react {
-    background-color: #f6870f;
-    text-decoration: none;
-    padding: 3px;
-    border-radius: 5px;
-}
-
-
-img {
-    border-radius: 15px;
-}
